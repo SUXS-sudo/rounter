@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment
+.venv/
+venv/
+
+# Pytest
+.pytest_cache/
+
+# IDE
+.vscode/
+.idea/
+
+# Data (large generated files)
+data/poi_data_100k.json
+data/poi_data_100k.csv
+data/reviews_100k.json
+data/reviews_100k.csv
+
+# CLI cache
+.last_intent.json
+
+# Env
+.env
